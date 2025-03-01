@@ -1,10 +1,7 @@
 <?php
 function getName()
 {
-    $servername = "localhost";
-    $username = "u3003666_root";
-    $password = "9MhtHL8QmFHjbiK";
-    $db = "u3003666_project667";
+    include '../bd_info.php';
 
     $connection = new mysqli($servername, $username, $password, $db);
 
