@@ -1,0 +1,174 @@
+body {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    background-color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 1rem auto;
+    padding-top: 0.7rem 1.5rem 0.7rem 1.5rem;
+    text-align: center;
+    overflow: hidden;
+}
+
+.header_icon {
+    width: 150px;
+    height: auto;
+}
+
+.header_container {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    border-bottom: 0.1rem solid black;
+}
+
+.header_container h2,
+.header_container h3 {
+    margin: 0;
+}
+
+.header_title {
+    margin-left: -21rem;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    overflow: hidden;
+    width: 410px;
+    border-radius: 5px;
+    height: 3rem;
+}
+
+.button-container:hover .btn {
+    opacity: 0.1;
+    transition: 0.3s;
+}
+
+.button-container .btn:hover {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.btn {
+    background: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    flex: 1;
+    transition: background 0.1s linear;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_sign-in {
+    padding: 10px 7px;
+    background: red;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn_log-in {
+    padding: 10px 7px;
+    text-decoration: none;
+    background: red;
+    color: white;
+}
+
+.professions_container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profession_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1100px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.prof-photo {
+    width: 400px;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.prof_content {
+    flex: 1; /* Занимает оставшееся пространство */
+    text-align: left; /* Текст выравнивается по левому краю */
+    padding: 10px;
+}
+
+.prof_description {
+    color: black;
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.prof_requirements {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.prof_requirements li {
+    margin-bottom: 5px;
+}
+
+.icon_button {
+    margin-left: 30px;
+    width: 67px;
+    max-height: 36px;
+    height: 100%;
+    border: none;
+    background-image: url("../images/iconsreg/mybiglogo.png");
+    background-position: top center;
+    background-size: contain;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.icon_button:hover {
+    opacity: 0.8;
+}
+
+.icon_button:active {
+    transform: scale(0.95);
+} 
